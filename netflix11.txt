@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Streaming Service</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        #header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #header img {
+            width: 100px;
+            cursor: pointer;
+        }
+
+        #search-bar {
+            text-align: center;
+            margin: 20px;
+        }
+
+        #search-input {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        #main-content {
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .media-card {
+            width: 200px;
+            margin: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .media-card:hover {
+            transform: scale(1.05);
+        }
+
+        .media-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        #footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <img src="https://th.bing.com/th?id=OIP.G8rptzuioUb8J-VdRVoL5wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Logo">
+    </div>
+
+    <div id="search-bar">
+        <input type="text" id="search-input" placeholder="Search for movies or series...">
+    </div>
+   <div class="header-content">
+            <h1><b>Laughter. Tears. Thrills. Find it all on Netflix.</b></h1>
+            <h3>Endless entertainment starts at just ₹ 149. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required/>
+                <button type="submit">Get Started</button>
+            </form>           
+        </div>
+
+
+    <div id="main-content">
+        <!-- Media Cards (Add your own images and details) -->
+        <div class="media-card">
+            <img src="https://th.bing.com/th/id/OIF.yKpaBG3CjzhuMLjuY4j7jw?rs=1&pid=ImgDetMain" alt="Media 1">
+            <p>VIKRAM </p>
+        </div>
+        <div class="media-card">
+            <img src="https://1.bp.blogspot.com/-iCmPJRyajpE/XojDTIBXuRI/AAAAAAAAatM/qTzY5-OEX8wkQEt44O3Zz0FBs5AiewJ4ACLcBGAsYHQ/w1200-h630-p-k-no-nu/1.jpg" alt="Media 2">
+            <p>KHAIDI </p>
+        </div>
+
+
+        <div class="media-card">
+            <img src="https://th.bing.com/th?id=OIF.ktsa1%2f3i684FmahrOX9I1g&rs=1&pid=ImgDetMain" alt="Media 3">
+            <p>ANIMAL</p>
+        </div>
+
+         <div class="media-card">
+            <img src="https://igmedia.blob.core.windows.net/igmedia/telugu/reviews/arjun-reddy-movie-review.jpg" alt="Media 3">
+            <p>ARJUN REDDY</p>
+        </div>
+
+      
+     
+       <div class="media-card">
+            <img src="https://th.bing.com/th/id/R.3774a5ddd3c9203f7a6bca954b117321?rik=sPTRJc47S0PT3w&riu=http%3a%2f%2f2.bp.blogspot.com%2f-gmeVPLXwFys%2fUSnbpcYdzfI%2fAAAAAAAAyAs%2fOT2cLbbqocI%2fs1600%2fsnehithudu-vijay-ileana-telugu-movie-songs-lyrics.jpg&ehk=eCUS%2fZP3vt60FjaVm1Vyj7P%2f8lA0%2fXsipOrod4vf4Oo%3d&risl=&pid=ImgRaw&r=0" alt="Media 3">
+            <p>SNHEITHUDU</p>
+        </div>
+      <div class="media-card">
+            <img src="https://images.indianexpress.com/2021/07/Jathi-Ratnalu-upeena.jpg" alt="Media 3">
+            <p>JATHIRATHNALU</p>
+        </div>
+
+
+
+
+<div class="media-card">
+            <img src="https://th.bing.com/th?id=OIP.-Uq35Wc2YXG6tbNuC0Qc_gHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Media 3">
+            <p>POKIRI</p>
+        </div>
+
+      <div class="media-card">
+            <img src="https://th.bing.com/th?id=OIP.E0UwaYvmDeUNOLwPAaXifAHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Media 3">
+            <p>GABAR SINGH</p>
+        </div>
+
+        <div class="media-card">
+            <img src="https://th.bing.com/th/id/OIP.lt3ByYmDvrFM6KlPxAnJvQHaKS?rs=1&pid=ImgDetMain" alt="Media 3">
+            <p>BAHUBALI</p>
+        </div>
+        
+         
+      <div class="media-card">
+            <img src="https://i.pinimg.com/736x/d8/d8/ff/d8d8fffba514c429519ee89f5e81aa2f---film--movies.jpg" alt="Media 3">
+            <p>BAHUBALI 2</p>
+        </div>
+
+
+          <div class="media-card">
+            <img src="https://th.bing.com/th?id=OIP.ZeR6oE3CRQhS25En9nxImAHaLc&w=201&h=310&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Media 3">
+            <p>LEO</p>
+        </div>
+
+             <div class="media-card">
+            <img src="https://th.bing.com/th/id/OIF.sLDWKJkYau76JdbZvv6NSg?rs=1&pid=ImgDetMain" alt="Media 3">
+            <p>PUSHPA</p>
+        </div>
+
+         <div class="media-card">
+            <img src="https://moviegalleri.net/wp-content/uploads/2019/10/Allu-Arjun-massy-look-in-Ala-Vaikuntapuramlo-Movie-Poster-HD.jpg" alt="Media 3">
+            <p>AA</p>
+        </div>
+
+     
+         <div class="media-card">
+            <img src="https://moviegalleri.net/wp-content/uploads/2019/08/Mahesh-Babu-Sarileru-Neekevvaru-First-Look-Poster-HD.jpg" alt="Media 3">
+            <p>SARILERU NIK AVARUU</p>
+        </div>
+
+   <div class="media-card">
+            <img src="https://pbs.twimg.com/media/B3cykp1CIAIJUBw.jpg" alt="Media 3">
+            <p>SARILERU NIK AVARUU</p>
+        </div>
+
+
+<div class="media-card">
+            <img src="https://4.bp.blogspot.com/-8AtBuSlNLmc/UrabBjQY54I/AAAAAAAAB3w/CzoFoUlB58s/s1600/Rajanna+Telugu+Movie+Online+HD.jpg" alt="Media 3">
+            <p>raju anna</p>
+        </div>
+
+<div class="media-card">
+            <img src="https://i.pinimg.com/originals/a4/df/28/a4df285f186e5fd6c84c36c0f3a25068.jpg" alt="Media 3">
+            <p>rangastalam</p>
+        </div>
+
+
+
+
+  <div class="media-card">
+            <img src="https://1.bp.blogspot.com/-jPMWwi1AoNs/X92YsD-DvtI/AAAAAAAAbY8/Uk1W5jTyAMkgBlBevNbWEIHyX0t8hdeCQCNcBGAsYHQ/w1200-h630-p-k-no-nu/Software%2BDeveloper%2BWeb%2BSeries.jpg" alt="Media 3">
+            <p>SOFTWARE DEVELOPER</p>
+        </div>
+
+<div class="media-card">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91NLSf34w4L._RI_.jpg" alt="Media 3">
+            <p>MIRZAPUR</p>
+        </div>
+
+ <div class="media-card">
+            <img src="https://th.bing.com/th/id/OIP.GwuztlCR3GF5evVhcQD1MQHaGl?rs=1&pid=ImgDetMain" alt="Media 3">
+            <p>gopala gopala</p>
+        </div>
+
+
+
+  <div class="faq">
+        <h2><b>Frequntly Asked Questons</b></h2>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first"/>
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p>
+                        Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+                    </p>
+                    <p>
+                        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="second"/>
+                <label for="second">How much does Netflix cost?</label>
+                <div class="content">
+                    <p>
+                        Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="third"/>
+                <label for="third">Where can I watch?</label>
+                <div class="content">
+                    <p>
+                        Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                    </p>
+                    <p>
+                        You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fourth"/>
+                <label for="fourth">How do I cancel?</label>
+                <div class="content">
+                    <p>
+                        Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="fifth"/>
+                <label for="fifth">What can I watch on Netflix?</label>
+                <div class="content">
+                    <p>
+                        Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordion" id="sixth"/>
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>
+                        The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+                    </p>
+                    <p>
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+
+                    </p>
+                </div>
+
+ <form class="email-signup">
+    <div class="footer">
+        <h2>Questions? Call 000-000-000-0000</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookie Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Centre</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div id="footer">
+        <p>&copy; 2023 Netflix clone by vinod</p>
+    </div>
+
+</body>
+</html>
+
+
+
